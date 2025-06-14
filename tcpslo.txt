@@ -1,0 +1,18 @@
+tcp 
+tcp.analysis.retransmission
+tcp.analysis.out_of_order
+Go to Statistics > TCP Stream Graphs > Round Trip Time Graph
+Go to Statistics > Conversations > TCP
+
+
+http 
+tcp.flags.syn==1
+http.response.code >= 400
+
+
+tcp or udp 
+ip.addr == 192.168.1.1
+dns
+http
+frame contains "password"
+File > Save As > .pcap file

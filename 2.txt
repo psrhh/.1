@@ -1,0 +1,11 @@
+nmap -sS [target]      # TCP SYN scan
+nmap -sT [target]      # TCP connect scan
+nmap -sU [target]      # UDP scan
+nmap -sP [target]      # Ping scan (host discovery)
+nmap -sO [target]      # IP protocol scan
+nmap -sV [target]      # Version detection
+nmap -O [target]       # OS detection
+nmap -p [ports] [target] # Scan specific ports
+nmap -A [target]       # Aggressive scan (OS, version, script)
+nmap -Pn [target]      # No ping (skip host discovery)
+
