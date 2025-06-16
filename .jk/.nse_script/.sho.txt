@@ -1,6 +1,8 @@
 org:"Kongsberg" port:80
 port:80 "AIS" country:"US"
-webcamXP
+"webcamXP" port:80
+"webcam 7" port:8080
+"IPcam" port:80
 
 ifconfig
 ifconfig eth0 down
