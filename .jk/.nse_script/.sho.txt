@@ -1,0 +1,13 @@
+org:"Kongsberg" port:80
+port:80 "AIS" country:"US"
+webcamXP
+
+ifconfig
+ifconfig eth0 down
+ifconfig eth0 inet <new-ip>
+ifconfig eth0 up
+ifconfig
+
+hping3 -a <fake-ip> -S <target-ip> -p 80
+
+git clone https://github.com/takeshixx/nmap-scripts.git
